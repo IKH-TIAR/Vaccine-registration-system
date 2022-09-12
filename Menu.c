@@ -28,31 +28,31 @@ int main(){
 			system("cls");
 			generalNews();
 			printf("Press enter to continue: ");
-			getchar();
+			getch();
 			break;
 		case 2:
 		    system("cls");
 		    fillStructure();
 		    printf("Press enter to continue: ");
-		    getchar();
+		    getch();
 		    break;
 		case 3:
 		    system("cls");
 			userlogin();
 			printf("Press enter to continue: ");
-			getchar();
+			getch();
 			break;
 		case 4:
 		    system("cls");
 			adminlogin();
 			printf("Press enter to continue: ");
-			getchar();
+			getch();
 			break;
 		case 5:
 		    system("cls");
 		    members();
 		    printf("Press enter to continue: ");
-		    getchar();
+		    getch();
 		    break;
 		    
 		case 0: 
