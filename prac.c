@@ -11,8 +11,6 @@ struct data{
 	char year[20];
 	char division[20];
     char district[20];
-    int phone1;
-    int phone2;
     int age;
     char gender[10];
     char nid[10];
@@ -265,9 +263,6 @@ void printStructure()
                 printf("Date Of Birth>%s - %s - %s\n\n",person[i-1].day,person[i-1].month,person[i-1].year);
                 printf("Division: %s\n\n",person[i-1].division);
                 printf("District: %s\n\n",person[i-1].district);
-                //printf("Upazila/Thana: %s\n\n",person[i-1].thana);
-                //printf("Ward: %s\n\n",person[i-1].ward);
-                //printf("Gram/Para/Moholla: %s\n\n",person[i-1].gram);
                 printf("Mobile>%s\n\n", person[i-1].mobilenumber);
                 printf("nid> %s\n", person[i-1].nid);
 
